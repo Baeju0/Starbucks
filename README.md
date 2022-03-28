@@ -17,12 +17,12 @@
 **HTML, CSS, JS**      
 ⦁ 브라우저에 기본으로 설정되어 있는 CSS 스타일 리셋 - https://cssdeck.com/blog/scripts/eric-meyer-reset-css/       
 ⦁ <Script defer src = "js/main.js"></Script> : <Script>에 defre 속성 추가 시 HTML 구조가 모두 해석 되면 정상적으로 작동      
-⦁ <!-- <a href="javascript:void(0)"></a> --> : a태그를 사용할 때 링크가 준비되지 않은 경우(a태그 속성만 나타내고, 링크 기능은 사라짐)       
+⦁ <a href="javascript:void(0)'></a> : a태그를 사용할 때 링크가 준비되지 않은 경우(a태그 속성만 나타내고, 링크 기능은 사라짐)       
 ⦁ HTML에서 기호를 사용하고 싶을 때 - https://www.w3schools.com/html/html_entities.asp      
        
 **매년 바뀌는 년도를 JS로 자동 수정(footer부분에 있는 내용)**      
   ⦁ HTML       
-    <span class="this-year"></span>      
+<!--     <span class="this-year"></span>       -->
   ⦁ JS     
     const thisYear = document.querySelector('.this-year');     
     thisYear.textContent = new Date().getFullYear();     
