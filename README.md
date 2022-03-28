@@ -22,7 +22,7 @@
        
 **매년 바뀌는 년도를 JS로 자동 수정(footer부분에 있는 내용)**      
   ⦁ HTML       
-    <span class="this-year"></span.>    
+    <span class="this-year'></span.>    
   ⦁ JS     
     const thisYear = document.querySelector('.this-year');     
     thisYear.textContent = new Date().getFullYear();     
